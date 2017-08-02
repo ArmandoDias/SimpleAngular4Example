@@ -1,0 +1,14 @@
+<div class="filterDiv">
+  Filter&nbsp;by&nbsp;Name:<input class="filterInput" type="text" [(ngModel)]="filteredName"/>
+  <button class="filterButton" (click)="clearFilter()">Clear</button>
+</div>
+<table class="tableStyle">
+  <tr class="disable-text-selection">
+    <th (click)="orderByName()" >Fighter&nbsp;Name{{directionName}}</th>
+    <th (click)="orderByGame()" >Game&nbsp;Title{{directionGame}}</th>
+  </tr>
+  <tr *ngFor="let fighter of fighters | filter:filteredName:'name' | orderBy:orderByThisField:orderByASC">
+    <td>{{fighter.name}}</td>
+    <td>{{fighter.game}}</td>
+  </tr>
+</table>

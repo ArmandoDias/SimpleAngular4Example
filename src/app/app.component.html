@@ -1,0 +1,55 @@
+<div class="appFrame">
+  <div class="htmlTitle">
+    Angular: Simple Example with Three Sources - Armando Schiavon Dias -
+    <a href="mailto:armando.schiavon@gmail.com">armando.schiavon@gmail.com</a>
+  </div>
+  <div class="htmlExplanation">
+    <div class="htmlExplanationBar noselect" (click)="showHideExplanation()">
+      ( Click here for <strong>{{showHideWord}}</strong> the exercise explanation )
+    </div>
+    <div class="htmlExplanationList" [style.display]="showHideStatus">
+      This is just a example, to show how I code a simple <strong>"One Page App"</strong>
+      using <strong>Angular 4</strong>.<br/>
+      You probably found this code through my <strong>CV</strong> or <strong>
+      <a href="https://www.linkedin.com/in/armandoschiavondias/" target="_blank">
+      LinkedIn</a></strong>.<br/><br/>
+      <strong>Mission:</strong> Let's imagine a situation where we have to read files from three
+      different sources. One provides a <strong>XML</strong> file, the second a
+      <strong>JSON</strong> and the last, a simple <strong>CSV</strong> file. We need to load
+      all the files, normalize this data and show the content,
+      being carefully with some rules:<br/>
+      <ul>
+        <li>If there is the same name on different files, presume that is the same fighter.</li>
+        <li>By default, show all fighters in alphabetical order.</li>
+        <li>Option to show fighters by game title.</li>
+        <li>Search by name, case insensitive and of "%Like%" kind.</li>
+      </ul>
+      Some points that I keep in mind all the time:<br/>
+      <ul>
+        <li><strong>
+          <a href="https://www.cs.helsinki.fi/u/luontola/tdd-2009/ext/ObjectCalisthenics.pdf"
+          target="_blank">Object Calisthenics</a></strong> ( Always when possible... )</li>
+        <li>I am using <strong>TESlint</strong> ( ESLint for TypeScript Files ):
+          This helps a lot with the code's pattern.</li>
+        <li>I am using <strong>TypeScript</strong> files because of <strong>Angular 4</strong></li>
+      </ul>
+      The files are:<br/>
+      <ul>
+        <li>src/app/app.module.ts (Some changes)</li>
+        <li>src/app/app.component.ts (Some code and explanations)</li>
+        <li>src/app/app.component.html (The HTML, the main 'Viewer' of this MVC)</li>
+        <li>src/app/app.component.css (Some Style)</li>
+        <li>src/app/pipes/filter.pipe.ts (Who filter the Fighters when you type something on search)</li>
+        <li>src/app/pipes/orderby.pipe.ts (Who put the Fighters' Name or Game Title in alphabetical order)</li>
+        <li>src/app/rosterofchars/parseFiles.ts (Class responsible for parse the three different sources)</li>
+        <li>src/app/rosterofchars/rosterofchars.component.css (More Style)</li>
+        <li>src/app/rosterofchars/rosterofchars.component.html (HTML used to show the data)</li>
+        <li>src/app/rosterofchars/rosterofchars.component.ts (Class who loads the three files and show the results on screen)</li>
+        <li>src/assets/source-data/bandainamco.xml (XML with information)</li>
+        <li>src/assets/source-data/capcom.json (JSON with information)</li>
+        <li>src/assets/source-data/nether-realm.csv (CSV with information)</li>
+      </ul>
+    </div>
+  </div>
+  <app-rosterofchars></app-rosterofchars>
+</div>

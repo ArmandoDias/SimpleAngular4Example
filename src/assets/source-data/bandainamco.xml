@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+	<game>
+		<title>Tekken 7</title>
+		<characters>
+			<char>Akuma</char>
+			<char>Claudio Serafino</char>
+			<char>Geese Howard</char>
+			<char>Gigas</char>
+			<char>Jack-7</char>
+			<char>Josie Rizal</char>
+			<char>Katarina Alves</char>
+			<char>Kazumi Mishima</char>
+			<char>Lucky Chloe</char>
+			<char>Master Raven</char>
+			<char>Shaheen</char>
+			<char>Alisa Bosconovitch</char>
+			<char>Asuka Kazama</char>
+			<char>Bob</char>
+			<char>Bryan Fury</char>
+			<char>Eddy Gordo</char>
+			<char>Eliza</char>
+			<char>Feng Wei</char>
+			<char>Heihachi Mishima</char>
+			<char>Hwoarang</char>
+			<char>Jin Kazama</char>
+			<char>Kazuya Mishima</char>
+			<char>King</char>
+			<char>Kuma</char>
+			<char>Lars Alexandersson</char>
+			<char>Lee Chaolan</char>
+			<char>Leo</char>
+			<char>Lili</char>
+			<char>Ling Xiaoyu</char>
+			<char>Marshall Law</char>
+			<char>Miguel Caballero Rojo</char>
+			<char>Nina Williams</char>
+			<char>Panda</char>
+			<char>Paul Phoenix</char>
+			<char>Sergei Dragunov</char>
+			<char>Steve Fox</char>
+			<char>Yoshimitsu</char>
+		</characters>
+	</game>
+</games>

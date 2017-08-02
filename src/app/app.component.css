@@ -1,0 +1,42 @@
+.appFrame {
+  margin: 25px;
+}
+
+.htmlTitle {
+  background-color: #00C6FF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.htmlExplanationBar {
+  background-color: #0093BD;
+  padding: 10px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.htmlExplanationList {
+  background-color: #C4D1D5;
+  padding: 10px;
+}
+
+a:link {
+  color: #006480;
+  text-decoration:none;
+}
+
+a:visited {
+  color: #006480;
+  text-decoration:none;
+}
+
+a:hover {
+  color: #006480;
+  text-decoration:underline;
+}
+
+a:active {
+  color: #006480;
+  text-decoration:none;
+}
